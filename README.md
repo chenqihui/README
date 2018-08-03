@@ -36,6 +36,7 @@ README
 * [表情](#表情)
 * [diff语法](#diff语法)
 * [流程图](#流程图)
+* [在线编辑阅读器](#在线编辑阅读器)
 
 ### 横线
 -----------
@@ -334,18 +335,23 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 
 流程图
 ----------
+[使用Markdown语法画流程图](https://www.cnblogs.com/Cherry-Linux/p/7797795.html)
 效果如下：
 
 ```flow
-st=>start: 开始
-op=>operation: My Operation
+st=>start: Start
+op=>operation: Your Operation
 cond=>condition: Yes or No?
 e=>end
+
 st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
 
+在线编辑阅读器
+----------
+[欢迎使用 Cmd Markdown 编辑阅读器](https://www.zybuluo.com/mdeditor#1237871)
 
 --------------------------------
 [csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
