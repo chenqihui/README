@@ -37,6 +37,7 @@ README
 * [diff语法](#diff语法)
 * [流程图](#流程图)
 * [在线编辑阅读器](#在线编辑阅读器)
+* [内部跳转](#内部跳转)
 
 ### 横线
 -----------
@@ -58,7 +59,6 @@ ___
 ##### 五级标题  
 ###### 六级标题  
 
-[测试](#效果)
 
 文本
 ------
@@ -363,3 +363,16 @@ cond(no)->op
 [weibo-logo]:/img/weibo.png "点击图片进入我的微博"
 [csdn-logo]:/img/csdn.png "我的CSDN博客"
 [foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+
+内部跳转
+----------
+一、指定目录的标题  
+[返回目录](#目录)
+
+二、序号
+1、给目录添加序号：[示例](#1)  
+2、使用：<h2 id="1">跳转示例</h2> 
+
+三、定义锚(id)  
+1、定义一个锚(id)：<span id="jump">跳转到的地方</span>  
+2、使用语法：[点击跳转](#jump)  
