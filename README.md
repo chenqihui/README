@@ -40,6 +40,7 @@ README
     * 图片
     * 音频
     * 视频
+    * 矩阵
 
 ### 横线
 -----------
@@ -419,3 +420,27 @@ HTML标签
 ```
 <iframe width="560" height="320" src="http://ali.v.cztv.com/cztv/vod/2017/11/24/68b1b304c46c43e7a9c634040b5d4d3c/a099ded7f296450080ec86b56c70f098_H264_800K_MP4.mp4" frameborder="0" allowfullscreen></iframe>
 ```
+
+五、矩阵
+
+不带括号：  
+$$\begin{matrix}
+1&2 \\  3&4 \\ 5&6
+\end{matrix}
+$$
+
+带大括号：  
+$$\left\{
+\begin{matrix}
+1&2 \\  3&4 \\ 5&6
+\end{matrix}
+\right\}
+$$
+
+带中括号：  
+$$\left[
+\begin{matrix}
+1&2 \\  3&4 \\ 5&6
+\end{matrix}
+\right]
+$$
