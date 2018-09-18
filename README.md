@@ -2,9 +2,6 @@ README
 ===========================
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 ****
-### Author:果冻虾仁
-### E-mail:Jelly.K.Wang@qq.com
-****
 ## 目录
 * [横线](#横线)
 * [标题](#标题)
@@ -38,6 +35,11 @@ README
 * [流程图](#流程图)
 * [在线编辑阅读器](#在线编辑阅读器)
 * [内部跳转](#内部跳转)
+* [HTML标签](#HTML标签)
+    * 文字
+    * 图片
+    * 音频
+    * 视频
 
 ### 横线
 -----------
@@ -388,3 +390,26 @@ cond(no)->op
 1、定义一个锚(id)：<span id="jump">跳转到的地方</span>  
 2、使用语法：[点击跳转](#jump)  
 ```
+
+HTML标签
+----------
+一、文字
+
+居中：   
+<center>hello world</center>
+
+左对齐：  
+<p align="left">hello world</p>
+
+二、图片
+
+固定大小 & 居中：  
+<div align=center><img width = '200' height ='200' src ="http://p3.music.126.net/tBTNafgjNnTL1KlZMt7lVA==/18885211718935735.jpg"/></div>
+
+三、音频
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=528478901&auto=1&height=66"></iframe>
+
+四、视频
+
+<iframe width="560" height="320" src="http://ali.v.cztv.com/cztv/vod/2017/11/24/68b1b304c46c43e7a9c634040b5d4d3c/a099ded7f296450080ec86b56c70f098_H264_800K_MP4.mp4" frameborder="0" allowfullscreen></iframe>
