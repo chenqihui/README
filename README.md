@@ -394,7 +394,7 @@ cond(no)->op
 
 HTML标签
 ----------
-以下可能由于 Github 不支持，所以显示不出来，可以在其他支持的 Markdown IDE 使用
+以下可能由于 Github 不支持，所以显示不出来，可以在前面提到的 [在线编辑阅读器](#在线编辑阅读器) 或者 其他支持的 Markdown IDE 上使用
 
 一、文字
 
@@ -424,23 +424,24 @@ HTML标签
 五、矩阵
 
 不带括号：  
-$$\begin{matrix}
-1&2 \\  3&4 \\ 5&6
-\end{matrix}
-$$
+$$\begin{matrix}  
+1&2 \\  3&4 \\ 5&6  
+\end{matrix}  
+$$  
 
 带大括号：  
-$$\left\{
-\begin{matrix}
-1&2 \\  3&4 \\ 5&6
-\end{matrix}
-\right\}
-$$
+$$\left\{  
+\begin{matrix}  
+1&2 \\  3&4 \\ 5&6  
+\end{matrix}  
+\right\}  
+$$  
 
-带中括号：  
-$$\left[
-\begin{matrix}
-1&2 \\  3&4 \\ 5&6
-\end{matrix}
-\right]
-$$
+带中括号： 
+$$\left[  
+\begin{matrix}  
+1&2 \\  3&4 \\ 5&6  
+\end{matrix}  
+\right]  
+$$  
+
