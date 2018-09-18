@@ -423,25 +423,34 @@ HTML标签
 
 五、矩阵
 
-不带括号：  
+不带括号：
+
+```
 $$\begin{matrix}  
 1&2 \\  3&4 \\ 5&6  
 \end{matrix}  
 $$  
+```
 
-带大括号：  
+带大括号：
+
+```
 $$\left\{  
 \begin{matrix}  
 1&2 \\  3&4 \\ 5&6  
 \end{matrix}  
 \right\}  
 $$  
+```
 
-带中括号： 
+带中括号：
+
+```
 $$\left[  
 \begin{matrix}  
 1&2 \\  3&4 \\ 5&6  
 \end{matrix}  
 \right]  
-$$  
+$$ 
+```
 
