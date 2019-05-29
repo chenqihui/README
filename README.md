@@ -41,6 +41,7 @@ README
     * 音频
     * 视频
     * 矩阵
+    * 颜色
 
 ### 横线
 -----------
@@ -453,4 +454,12 @@ $$\left[
 \right]  
 $$ 
 ```
+
+六、颜色
+
+<font size=1 color=#FF1493 face="黑体">编辑文本</font>，
+　　效果：编辑文本。
+　　文本尺寸值：1-7，默认为3。
+
+[markdown编辑器字体字号与颜色 | Rumble's blog](https://cldiao.github.io/2017/10/11/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2/)
 
