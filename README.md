@@ -464,3 +464,11 @@ $$
 
 [markdown编辑器字体字号与颜色 | Rumble's blog](https://cldiao.github.io/2017/10/11/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2/)
 
+Github 不支持 html font 标签，但可以使用色块标记
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+
+
+
