@@ -400,10 +400,16 @@ HTML标签
 一、文字
 
 居中：   
+
+~~~
 <center>hello world</center>
+~~~
 
 左对齐：  
+
+~~~
 <p align="left">hello world</p>
+~~~
 
 二、图片
 
